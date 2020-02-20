@@ -1,0 +1,24 @@
+#xdomain echo "Run Automation Script-X" xdomain#
+#vdomain echo "Run Automation Script-V" vdomain#
+#jsparser cd /var/www/localhost/htdocs/Tools/JSParser/;python /var/www/localhost/htdocs/Tools/JSParser/handler.py jsparser#
+#shell ttyd -p 8001 sh -x shell#
+#nmap nmap $host nmap#
+#crawler crawler $host crawler#
+#dirsearch python3 Tools/dirsearch/dirsearch.py -u $host -e php,html dirsearch#
+#nikto nikto -h $host nikto#
+#ctfr python Tools/ctfr/ctfr.py -d $host ctfr#
+#sublist3r python Tools/Sublist3r/sublist3r.py -d $host sublist3r#
+#knockpy python Tools/knock/knockpy/knockpy.py $host knockpy#
+#trufflehog trufflehog  $host trufflehog#
+#waybackmachineurls python Tools/Scripts/WBM_URLs.py $host waybackmachineurls# 
+#waybackmachineunifier Tools/Scripts/WBM_Unifier -url $host waybackmachineunifier#
+#datasploit python Tools/datasploit/datasploit.py --i $host datasploit#
+#blackwidow Tools/BlackWidow/blackwidow -d $host blackwidow#
+#theharvester python Tools/theHarvester/theHarvester.py -d $host -b all theharvester#
+#sqlmap python Tools/sqlmap/sqlmap.py -u $host sqlmap#
+#commix python Tools/commix/commix.py --os-cmd=dir --flush-session -u $host commix#
+#wpscan echo N | Tools/wpscan/wpscan.rb --url $host wpscan#
+#ritx perl Tools/RitX/RitX.pl -t $host -O output.txt; cat output.txt; rm output.txt ritx#
+#cloudflare_enum python Tools/cloudflare_enum/cloudflare_enum.py  EMAIL_HERE PASSWORD_HERE $host ; cat *.txt ; rm *.txt cloudflare_enum#
+#censys.py python Tools/Censys.py/censys.py -f $host censys.py#
+#parameth cd Tools/parameth/ ; python parameth.py -u $host parameth#

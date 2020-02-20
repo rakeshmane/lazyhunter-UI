@@ -1,0 +1,8 @@
+debug:[<font color=red>Debug</font>]
+domainenumeration:Domain Enumeration
+endpointenumeration:EndPoints Enumeration
+scanners:Scanners
+recon:Recon
+exploiters:Exploiters
+network:Network
+auto:Automation

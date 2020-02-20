@@ -1,0 +1,22 @@
+RitX: Reverse IP Lookup Tool that allows you to use an IP address to identify all websites hosted on a server. <br>Credits : s-amine
+Nmap: Network Scanning Tool.
+Sublist3r: Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. <br>Credits : aboul3la
+Knockpy: Knockpy is designed to enumerate subdomains through a wordlist. It can also scan for DNS zone transfer and try to bypass the wildcard DNS record. It also supports queries to VirusTotal subdomains. <br>Credits : guelfoweb
+CTFR: Abusing Certificate Transparency logs for getting HTTPS websites subdomains. <br>Credits : UnaPibaGeek
+DirSearch: dirsearch is a simple command line tool designed to brute force directories and files in websites.<br>Credits : maurosoria
+WaybackmachineUnifier: WaybackUnifier allows you to take a look at how a file has ever looked by aggregating all versions of this file, and creating a unified version that contains every line that has ever been in it. <br>Credits : mhmdiaa
+WaybackmachineUrls: Lists all URLs from WayBackMachine. <br> Credits : mhmdiaa
+Nikto: Nikto is an Open Source (GPL) web server scanner which performs comprehensive tests against web servers <br> Credits : sullo
+Trufflehog: Searches through git repositories for secrets, digging deep into commit history and branches. This is effective at finding secrets accidentally committed. <br> Credits : dxa4481
+WPScan: WPScan is a black box WordPress vulnerability scanner. <br> Credits : wpscanteam
+TheHarvester: tool for gathering e-mail accounts, subdomain names, virtual hosts, open ports/ banners, and employee names from different public sources (search engines, pgp key servers). <br> Credits : laramies
+DataSploit: Performs OSINT on a domain / email / username / phone and find out information from different sources. <br> Credits : DataSploit
+BlackWidow: Web application spider to gather subdomains, URL's, dynamic parameters, email addresses and phone numbers from a target website and also includes Inject-X fuzzer to scan dynamic URL's for common OWASP vulnerabilities. <br>Credits : 1N3
+Sqlmap: Automates the process of detecting and exploiting SQL injection flaws and taking over of database servers. <br> Credits : sqlmapproject
+Commix: Automated All-in-One OS command injection and exploitation tool. <br> Credits : commixproject
+Nmap: Utility for network discovery and security auditing. <br> Credits : nmap
+CloudFlare_Enum: Cloudflare DNS Enumeration Tool for Pentesters <br> Credits : mandatoryprogrammer
+Censys.py: Quick and Dirty script to use the Censys API to query subdomains of a target domain. <br> Credits : censys
+Parameth: This tool can be used to brute discover GET and POST parameters. <br> Credits : maK-
+
+
