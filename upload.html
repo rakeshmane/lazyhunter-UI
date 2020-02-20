@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<script src="resources/jquery.min.js"></script>
+	<script src="resources/upload-functions.js"></script>
+
+	<body onload=listFiles();>
+
+		<form action="upload.php" method="post" enctype="multipart/form-data">
+			    Select file to upload:
+			    <input type="file" name="fileToUpload" id="fileToUpload"><br>
+				    <input type="submit" value="Upload" name="submit" onclick='document.getElementById("file_upload_name").value=top.document.getElementById("target").value'>
+				    <input id=file_upload_name type=hidden name=domain value=checkDomainPlz>
+		</form><br>
+--------------------------------
+<br><br>
+<input id=file_name name=file_name placeholder='Name of file'><br>
+<br>
+<textarea id=file_data>
+
+</textarea>
+
+<button onclick=saveAsFile()>Save As File</button><br><br>
+--------------------------------<br>
+List :<br><br>
+<div id=files_list>
+</div>
+
+	</body>
+</html>
