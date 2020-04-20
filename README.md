@@ -18,8 +18,9 @@ Pull the current version 1.0 :
 `docker pull rakeshmane/lazyhunter:v1.0`
 
 Start server :
-`docker pull rakeshmane/lazyhunter:v1.0
-docker run --rm -v ~/TOWF/:/TOWF/ -p 8888:80 -p 8008:8008 -p 8001:8001 -d rakeshmane/lazyhunter:v1.0`
+`docker pull rakeshmane/lazyhunter:v1.0`
+
+`docker run --rm -v ~/TOWF/:/TOWF/ -p 8888:80 -p 8008:8008 -p 8001:8001 -d rakeshmane/lazyhunter:v1.0`
 
 Visit : http://127.0.0.1:8888
 
