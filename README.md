@@ -1,5 +1,5 @@
 
-#Version 20.02
+[Version 20.02]
 
 This repo contains web UI components and config files of lazyhunter.
 
@@ -25,8 +25,8 @@ Start server :
 Visit : http://127.0.0.1:8888
 
 # Without docker
-I haven't tested it this outside of container but it you could just clone this repo and change the default commands from config/default_commands.txt file, then just start the php server and you are ready to go. 
-I recommend you use docker container lazyhunter at the moment. I'll probably release non-docker version of lazyhunter, but not anytime soon.
+I haven't tested it outside of container but I think you could just clone this repo and change the default commands from config/default_commands.txt file, then just start the php server and you are ready to go. 
+However I recommend to use docker container "lazyhunter" at the moment. I'll probably release non-docker version of lazyhunter, but not anytime soon.
 
 # Contribution
 Feel free to contact me on @RakeshMane10 or just send the Pull Request here.
