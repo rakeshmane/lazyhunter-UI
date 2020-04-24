@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="resources/styles.css">
 <script src="resources/md5.min.js"></script>
 <script src="resources/functions.js"></script>
-<title>Tools Over Web Framework</title>
+<title>LazyHunter</title>
 
 <body onload="addSections()">
 <center>
@@ -54,7 +54,7 @@
 <br>
 ---------------------------------------
 <br> 
-<iframe  style="padding: 2px; border: 1px solid black" src="upload.html" id=options_frame height=600 width=1000></iframe><br><br>
+<!-- todo, it's incomplete feature : <iframe  style="padding: 2px; border: 1px solid black" src="upload.html" id=options_frame height=600 width=1000></iframe> --> <br><br>
 	<font color=green>Developed by Rakesh Mane (@RakeshMane10)</font>
 </div>
 
